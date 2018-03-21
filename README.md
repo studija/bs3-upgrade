@@ -81,21 +81,21 @@ col-{breakpoint}-text-{property}
 ```
 
 #### Example: ####
-```
+```html
 ...
 <div class="col-lg-12 col-xs-text-center">
     text centered on all breakpoints
 </div>
 ...
 ```
-```
+```html
 ...
 <div class="col-lg-12 col-lg-text-center">
     text centered only on 'lg' breakpoint
 </div>
 ...
 ```
-```
+```html
 ...
 <div class="col-lg-12 col-xs-text-center col-sm-text-left col-md-text-right col-lg-text-justify">
     each breakpoint have different text alignment
